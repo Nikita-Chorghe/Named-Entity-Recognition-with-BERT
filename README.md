@@ -13,7 +13,7 @@ After pre-training, BERT can be fine-tuned for specific tasks like NER. This inv
 
 The input text is tokenized into subwords or words, depending on the BERT model used. Each token is assigned an embedding vector based on its context in the sentence.
 
-##Adding Special Tokens:
+## Adding Special Tokens:
 
 Special tokens, such as [CLS] (classification) and [SEP] (separator), are added to the tokenized input. [CLS] is used to represent the entire input for classification tasks, and [SEP] separates segments of the input.
 Segment Embeddings:
